@@ -4,4 +4,31 @@
     "email": "usama@gmail.com",
     "password": "12453",
     "status" : 200
-  }}
+  }
+"invalidemail": {
+    "email": "usamagmailcom",
+    "password": "12453",
+    "status" : 401
+  }
+"invalidpassword": {
+    "email": "usama@gmail.com",
+    "password": "2222222222222",
+    "status" : 401
+  }
+"invalidpasswordandemail": {
+    "email": "usamagmailcom",
+    "password": "222222222222222222",
+    "status" : 401
+
+
+
+
+
+
+
+
+
+
+
+
+}
